@@ -1,8 +1,6 @@
 
 # coding: utf-8
 
-# In[16]:
-
 class NetworkReadError(Exception):
     pass
 class NetworkConnectionError(Exception):
@@ -56,7 +54,6 @@ def must_keep_tweet(tweet, langs):
     return True
 
 
-# In[18]:
 def main():
     import optparse, json
     parser = optparse.OptionParser()
@@ -87,9 +84,6 @@ def main():
 
 if __name__ == '__main__':
     main()
-
-
-# In[ ]:
 
 
 
